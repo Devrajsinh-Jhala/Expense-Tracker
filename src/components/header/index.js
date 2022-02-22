@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header-logo">Tracxpense.</div>
         <div className="header-button">
           <a
-            href="https://github.com/Devrajsinh-Jhala"
+            href="https://github.com/Devrajsinh-Jhala/Expense-Tracker"
             target="_blank"
             rel="noopener noreferrer"
           >
