@@ -1,0 +1,84 @@
+.topfold {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 12px;
+  padding: 12px 0px;
+  align-items: center;
+}
+
+.home-topfold {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.searchBar input {
+  width: 80%;
+  outline: none;
+  padding: 8px 0px;
+  border: none;
+  margin-left: 4px;
+  background-color: white;
+}
+
+.searchBar .search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  padding: 0px 4px;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-button label {
+  cursor: pointer;
+}
+
+.add-button .add-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}
+
+.add-topfold {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  flex: 1;
+}
+
+.add-topfold label {
+  cursor: pointer;
+}
+
+.add-topfold .add-topfold-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-topfold .add-topfold-button .add-topfold-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 2px;
+}
