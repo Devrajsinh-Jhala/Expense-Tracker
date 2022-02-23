@@ -1,6 +1,7 @@
 .add-form {
-  background: #fad0c9;
-  box-shadow: 20px 20px 60px #d5b1ab, -20px -20px 60px #ffefe7;
+  border-radius: 50px;
+  background: #00abe1;
+  box-shadow: 20px 20px 60px #0091bf, -20px -20px 60px #00c5ff;
   margin: 6px 12px;
   padding: 24px;
   display: flex;

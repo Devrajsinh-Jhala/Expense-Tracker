@@ -27,7 +27,11 @@ const ExpenseList = () => {
       />
       {filteredList.length ? (
         filteredList.map((item) => (
-          <Card item={item} notifySuccess={notifySuccess} />
+          <Card
+            item={item}
+            notifySuccess={notifySuccess}
+            key={item.createdAt}
+          />
         ))
       ) : (
         <div className="empty-state">

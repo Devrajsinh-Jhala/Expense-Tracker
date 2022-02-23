@@ -1,12 +1,12 @@
 * {
-  --Pink-Salt: #fad0c9ff;
-  --Charcoal-Gray: #6e6e6dff;
+  --Light-Blue: #00abe1;
+  --Dark-Blue: #161f6d;
 }
 body {
   margin: 0;
   font-family: "Playfair Display", serif;
-  background: var(--Pink-Salt);
-  color: var(--Charcoal-Gray);
+  background: var(--Light-Blue);
+  color: var(--Dark-Blue);
 }
 
 a {

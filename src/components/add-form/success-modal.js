@@ -4,6 +4,8 @@ import Modal from "react-modal";
 import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+Modal.setAppElement("#root");
+
 const SuccessModal = ({ isModalOpen }) => {
   const customStyles = {
     content: {
