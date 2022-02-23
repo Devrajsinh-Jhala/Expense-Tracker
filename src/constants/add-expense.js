@@ -14,7 +14,7 @@ export const categories = [
   {
     id: 3,
     title: "Shopping",
-    icon: require("../assets/images/education.png"),
+    icon: require("../assets/images/shopping.png"),
     color: "#EC60AB",
   },
   {
